@@ -1,0 +1,24 @@
+/* Header Start */
+header .collapse ul {
+    gap: 20px;
+}
+
+header .no-drop {
+
+    cursor: no-drop;
+}
+
+.dropdown:hover ul.dropdown-menu {
+    display: block;
+}
+
+/* Header End */
+#banner {
+    height: calc(100vh - 56px);
+}
+
+@media screen and(max-width: 568px) {
+    #banner {
+        height: calc(100vh - 100px);
+    }
+}
